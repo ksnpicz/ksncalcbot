@@ -26,4 +26,4 @@ async def arb(ctx, odd1: float, odd2: float, total_stake: float):
 
     await ctx.send(response)
 
-bot.run(os.getenv("DISCORD_TOKEN"))
+bot.run(os.getenv("TOKEN"))
